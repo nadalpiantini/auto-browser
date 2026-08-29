@@ -26,6 +26,7 @@ const browserServer = await chromium.launchServer({
     "--no-default-browser-check",
     "--lang=en-US,en",
     "--disable-notifications",
+    "--disable-popup-blocking",
   ],
 });
 
